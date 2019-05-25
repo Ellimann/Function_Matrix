@@ -63,6 +63,61 @@ cacheSolve <- function(x, ...) {
 ##     [,1] [,2]
 ##[1,]  -10  9.5
 
+CONCLUSIO:
+
+Type 1 Error
+What Is a Type 1 Error?
+
+A Type 1 error is a statistics term used to refer to an error that is made in testing when a conclusive winner is declared although the test is actually inconclusive.
+
+In other words, a type 1 error is like a “false positive,” an incorrect belief that a variation in a test has made a statistically significant difference.
+Why Do Type 1 Errors Occur?
+
+Errors can easily happen when statistics are misunderstood or incorrectly applied.
+
+In statistics, the notion of a statistical error is an integral part of testing any hypothesis.
+
+No hypothesis test is ever certain. Because each test is based on probabilities, there is always a slight risk of drawing an incorrect conclusion.
+
+Statistical significance has traditionally been calculated with assumptions that the test runs within a fixed timeframe and ends as soon as the appropriate sample size has been reached. This is what is referred to as a ‘fixed horizon.’
+
+The ‘fixed horizon’ methodology assumes you will only make a decision after the final sample size has been reached.
+
+Of course, this is not the way things work in the A/B testing world. With no predetermined set sample size (and results that are not statistically significant), it’s easy to make a type 1 error.
+
+Hypothesis tests have a level of statistical significance attached to them, denoted by the Greek letter alpha, α.
+
+The number represented by α is a probability of confidence in the accuracy of the test results. In the digital marketing universe, the standard is now that statistically significant results value alpha at 0.05 or 5%.
+
+A 95% confidence level means that there is a 5% chance that your test results are the result of a type 1 error.
+Why Is It Important to Watch Out For Type 1 Errors?
+
+The main reason to watch out for type 1 errors is that they can end up costing your company a lot of money.
+
+If you make a faulty assumption and then change the creative components of a landing page based on that assumption, you could risk hurting your customer conversion rate at a significant level.
+
+The best way to help avoid type 1 errors is to increase your confidence threshold and run experiments longer to collect more data.
+Type 1 Error Example
+
+Let’s consider a hypothetical situation. You are in charge of an ecommerce site and you are testing variations for your landing page. We’ll examine how a type 1 error would affect your sales.
+
+Your hypothesis is that changing the “Buy Now” CTA button from green to red will significantly increase conversions compared to your original page.
+
+You launch your A/B test and check the results within 48 hours. You discover that the conversion rate for the new green button (5.2%) outperforms the original (4.8%) with a 90% level of confidence.
+
+Excited, you declare the green button a winner and make it the default page.
+
+Two weeks later, your boss shows up at your desk with questions about a big drop in conversions. When you check your data, you see your data for the past 2 weeks indicates that the original CTA button color was in fact the winner.
+
+What happened? Even though the experiment returned a statistically significant result with a 90% confidence interval, that still means that 10% of the time the conclusion reached by the experiment will actually be wrong.
+How To Avoid Type 1 Errors
+
+You can help avoid type 1 by raising the required confidence interval before reaching a decision (to say 95% or 99%) and running the experiment longer to collect more data. However, statistics can never tell us with 100% certainty whether one version of a webpage is best. Statistics can only provide probability, not certainty.
+
+Does this mean A/B tests are useless? Not at all. Even if there is always a chance of making a type 1 error, statistically speaking you will still be right most of the time if you set a high enough confidence interval. As in engineering and other disciplines, absolute certainty is not possible, but by setting the right confidence interval we can reduce the risk of making an error to an acceptable range.
+
+  
+
 ```
 
 ## R Markdown
